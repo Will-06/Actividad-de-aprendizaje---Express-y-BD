@@ -1,5 +1,5 @@
 {
-  "name": "mi-api-mysql",
+  "name": "mysql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "mysql2": "^3.14.3"
+    "mysql": "^2.18.1"
   }
 }
