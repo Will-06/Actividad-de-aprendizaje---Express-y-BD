@@ -1,0 +1,19 @@
+
+
+
+
+CREATE DATABASE tienda;
+USE tienda;
+
+
+CREATE TABLE `productos` (
+  `id` int AUTO_INCREMENT PRIMARY KEY,
+  `nombre` varchar(100) DEFAULT NULL,
+  `precio` decimal(10,2) DEFAULT NULL
+);
+
+
+INSERT INTO `productos` (`id`, `nombre`, `precio`) VALUES
+(1, 'Camiseta', 12.90),
+(2, 'Camiseta roja', 12.90),
+(3, 'Camiseta verde', 12.90);
